@@ -1,0 +1,9 @@
+baseURL = "http://daosyn.info/"
+languageCode = "en-us"
+title = "daosyn"
+theme = "hyde"
+
+[params]
+    themeColor = "theme-base-08"
+    layoutReverse = "true"
+    description = "thoughts and ramblings on code, tech, and other interests"
