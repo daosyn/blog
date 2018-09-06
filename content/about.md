@@ -3,6 +3,7 @@ title: "About"
 date: 2018-09-03T03:21:01Z
 menu: "main"
 ---
+<img src="/me.jpg"/>
 <!--more-->
 
 Hi! My name is Brandon Dao. Many things interest me, but currently I am consumed by Golang, table tennis, Osamu Dazai, and wasting money on frivolous things.
