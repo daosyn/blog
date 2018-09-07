@@ -12,3 +12,4 @@ Many things interest me, but currently I am consumed by Golang, table tennis, Os
 
 Thoughts that are tangible in any way will be shared here.
 For short form thoughts, find me on [Twitter](https://twitter.com/daosyn).
+My projects can be found on [GitHub](https://github.com/daosyn).
