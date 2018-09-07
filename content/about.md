@@ -6,7 +6,9 @@ menu: "main"
 <img src="/me.jpg"/>
 <!--more-->
 
-Hi! My name is Brandon Dao. Many things interest me, but currently I am consumed by Golang, table tennis, Osamu Dazai, and wasting money on frivolous things.
+Hi!
+My name is Brandon Dao.
+Many things interest me, but currently I am consumed by Golang, table tennis, Osamu Dazai, and wasting money on frivolous things.
 
-Thoughts that are tangible in any way will be shared here. For short form thoughts, find me on [Twitter](https://twitter.com/daosyn).
-
+Thoughts that are tangible in any way will be shared here.
+For short form thoughts, find me on [Twitter](https://twitter.com/daosyn).
