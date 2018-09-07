@@ -27,6 +27,7 @@ I have always had a sort of overly humble attitude towards things, thinking that
 It works sometimes, but other times it leads to me coming off as thoughtless and rash.
 I do not think it is necessarily bad to feel jealous, but to let it linger and build up has been a mistake.
 Jealousy should be expressed openly and calmly, so that it can be melted down to a more reasonable size by the warm truth.
+I need to be able to let myself become vulnerable and put more trust into others.
 
 This kind of post had not been something I planned to make on this platform, but this sort of self-reflection has recently been occupying most of my time alone.
 I care a lot more about the people in my life than I tend to let on, and I need to change that quality of myself.
