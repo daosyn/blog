@@ -1,6 +1,6 @@
 [submodule "public"]
 	path = public
-	url = https://github.com/daosyn/daosyn.github.io
+	url = https://github.com/daosyn/daosyn.info
 	branch = master
 [submodule "themes/hyde"]
 	path = themes/hyde
