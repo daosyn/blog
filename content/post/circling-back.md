@@ -3,7 +3,7 @@ title: "Circling Back - Yubikey Setup With Surface Go"
 date: 2018-09-23T06:46:44-05:00
 ---
 
-A big hurdle that I have been running into recently has been setting up my Yubikey with all of the devices that I use.
+A small hurdle that I have been running into recently has been setting up my Yubikey with all of the devices that I use.
 <!--more-->
 
 The Yubikey has been in my possession for a few months now.
