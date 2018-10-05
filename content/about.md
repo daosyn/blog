@@ -8,8 +8,12 @@ menu: "main"
 
 Hi!
 My name is Brandon Dao.
-Many things interest me, but currently I am consumed by Golang, table tennis, Osamu Dazai, and wasting money on frivolous things.
 
-Thoughts that are tangible in any way will be shared here.
+<ul>
+<li><a href="/resume.html">view resume</a></li>
+<li><a href="/pubkey.asc" download>download public key</a></li>
+</ul>
+
+Thoughts that are tangible in any way will be shared here on this blog.
 For short form thoughts, find me on [Twitter](https://twitter.com/daosyn).
 My projects can be found on [GitHub](https://github.com/daosyn).

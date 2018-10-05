@@ -6,4 +6,4 @@ theme = "hyde"
 [params]
     themeColor = "theme-base-08"
     layoutReverse = "true"
-    description = "thoughts and ramblings on code, tech, and other interests"
+    description = "internal discoveries that matter to me"
