@@ -5,7 +5,7 @@ date: 2018-09-13T03:20:23Z
 
 I have been feeling quite a bit more sentimental than productive lately, so this is going to be another more personal post that falls outside of the content I had intended to use this blog for.
 
-<img src="/image/cousins.png"/>
+<img src="/image/cousins.jpg" width="360"/>
 <!--more-->
 
 The photo above was taken on my second or third visit to England, where my maternal relatives live.

@@ -3,7 +3,9 @@ title: "About"
 date: 2018-09-03T03:21:01Z
 menu: "main"
 ---
-<img src="/image/me.jpg"/>
+
+
+<img src="/image/me.jpg" width="360"/>
 <!--more-->
 
 Hi!

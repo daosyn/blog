@@ -12,7 +12,7 @@ I recently found out that my workplace also supports Yubikeys for multi-factor a
 Setting that up was also simple, and I enjoyed the ease of using the Yubikey over generating codes on a phone so much that I began looking into other ways that I could integrate the key into my workflow, for added security, of course, but also just for fun.
 
 <figure>
-    <img src="/image/yubiwall.jpg"/>
+    <img src="/image/yubiwall.jpg" width="360"/>
     <figcaption>
         I switched back to an old wallet from a Bellroy Slim Sleeve because it provided an easy way to carry the key.
     </figcaption>
@@ -39,7 +39,7 @@ I had to scour the web and eventually found a comment in some forum explaining t
 That is on top of enabling PuTTY support and setting `GIT_SSH` as an environment variable with its value pointing to `plink`.
 
 <figure>
-    <img src="/image/gossh.jpg"/>
+    <img src="/image/gossh.jpg" width="360"/>
     <figcaption>
         Success!
     </figcaption>
