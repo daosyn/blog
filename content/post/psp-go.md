@@ -22,4 +22,5 @@ I ended up paying a fourth of the original price of one when it was released nin
 The whole experience of logging into the PlayStation Store, typing in a long code to redeem a prepaid card (high schoolers had hardly any money, let alone credit cards), purchasing the game, and waiting nearly an hour for the game to download and install was something that seemed very daunting to me, a kid who sought instant gratification.
 I wanted to be able to purchase a game and hop into the car to pop it into the my PSP that had been patiently waiting for me.
 Each single game had a lot of longevity, mainly out of necessity.
-I had an allowance, and that meant that I had to carefully think out what my next move would be, because the next game I would decide on would be the game I would be stuck with for the next few months
+I had an allowance, and that meant that I had to carefully think out what my next move would be, because the next game I would decide on would be the game I would be stuck with for the next few months.
+
