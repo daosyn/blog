@@ -1,6 +1,7 @@
 ---
 title: "Family"
 date: 2018-09-13T03:20:23Z
+expirydate: 2018-10-10
 ---
 
 I have been feeling quite a bit more sentimental than productive lately, so this is going to be another more personal post that falls outside of the content I had intended to use this blog for.

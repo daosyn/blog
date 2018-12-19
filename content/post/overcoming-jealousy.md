@@ -1,6 +1,7 @@
 ---
 title: "Overcoming Jealousy"
 date: 2018-09-07T02:23:51Z
+expirydate: 2018-11-11
 ---
 
 I have a problem.
