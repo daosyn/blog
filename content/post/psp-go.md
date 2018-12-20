@@ -1,7 +1,6 @@
 ---
 title: "PSP Go"
 date: 2018-10-13T11:03:53-05:00
-draft: true
 ---
 
 Coincidentally or not, I have been thoroughly obsessed with all things "Go" lately...
@@ -16,7 +15,6 @@ Why would the PSP Go be any good today, in 2018, when technology has advanced ev
 The answer is that exploitation takes time.
 <!--more-->
 
-And in recent years, the time and effort has really shown.
 I had been on the lookout for this device for a while now, and pounced on a deal I found at a local pawn shop.
 I ended up paying a fourth of the original price of one when it was released nine years ago.
 The whole experience of logging into the PlayStation Store, typing in a long code to redeem a prepaid card (high schoolers had hardly any money, let alone credit cards), purchasing the game, and waiting nearly an hour for the game to download and install was something that seemed very daunting to me, a kid who sought instant gratification.
@@ -24,3 +22,9 @@ I wanted to be able to purchase a game and hop into the car to pop it into the m
 Each single game had a lot of longevity, mainly out of necessity.
 I had an allowance, and that meant that I had to carefully think out what my next move would be, because the next game I would decide on would be the game I would be stuck with for the next few months.
 
+In recent years, the time and effort that the hacking scene has put into the PSP has really shown.
+Firmware updates have halted long ago, and even the latest version is now exploitable.
+A custom firmware can be easily installed onto the little device that allows for unsigned code to be executed.
+This means that emulators can be loaded onto it, allowing one to play any game on a wide range of consoles, including NES, SNES, GBA, PS1, and Sega Genesis.
+
+Commuting to places has never been boring since.
