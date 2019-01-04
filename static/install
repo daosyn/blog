@@ -36,12 +36,37 @@ echo
 os=`uname -s`
 echo -e "\n${red}determining operating system ($os) and installing software...${nocolor}\n"
 if [ "$os" == "Linux" ]; then # Debian
-    packages='feh git golang gpg redshift scdaemon vim'
+    currdir=`pwd`
+
+    packages='feh git golang gpg make redshift scdaemon vim xorg'
+    libraries='libx11-dev libxft-dev libxinerama-dev'
     sudo apt update
-    sudo apt install $packages -y
+    sudo apt install $packages $libraries -y
     sudo apt autoremove -y
 
-    # TODO set up suckless
+    mkdir -p $HOME/.fonts
+    git clone https://github.com/daosyn/tewi-font $HOME/tewi-font
+    cd $HOME/tewi-font
+    make clean
+    make
+    rm $HOME/.fonts/out
+    ln -s $HOME/tewi-font/out $HOME/.fonts/out
+    sudo rm /etc/fonts/conf.d/70-no-bitmaps.conf
+    fc-cache -fv
+
+    # TODO set up suckless better
+    git clone --recurse-submodules https://github.com/daosyn/suckless.git $HOME/suckless
+    cd $HOME/suckless/src/dmenu
+    patch config.h ../../dmenu.patch
+    sudo make clean install clean
+    cd $HOME/suckless/src/dwm
+    patch config.h ../../dwm.patch
+    sudo make clean install clean
+    cd $HOME/suckless/src/st
+    patch config.h ../../st.patch
+    sudo make clean install clean
+
+    cd $currdirr
 elif [ "$os" == "Darwin" ]; then # macOS
     # xcode
     xcode-select --install
