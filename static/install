@@ -2,6 +2,7 @@
 
 red='\e[31m'
 nocolor='\e[00m'
+os=`uname -s`
 
 cat << "EOF"
 environment installation script
@@ -24,18 +25,18 @@ this script will:
 - determine the operating system
 - install packages
 - set up environment-specific software
-- configure gpg
 - clone dotfiles and bin repositories
+- import public key
+- download wallpapers
 
 --------------------------------------------------
 EOF
 
+echo -e "\n${red}OS is $os -- continue?${nocolor}\n"
 read -sp "press enter to continue, ctrl+c to quit"
 echo
 
-os=`uname -s`
-echo -e "\n${red}determining operating system ($os) and installing software...${nocolor}\n"
-if [ "$os" == "Linux" ]; then # Debian
+if [ "$os" == "Linux" ]; then
     currdir=`pwd`
 
     packages='feh git golang gpg make redshift scdaemon vim xorg'
@@ -44,6 +45,7 @@ if [ "$os" == "Linux" ]; then # Debian
     sudo apt install $packages $libraries -y
     sudo apt autoremove -y
 
+    # TODO this is messy
     mkdir -p $HOME/.fonts
     git clone https://github.com/daosyn/tewi-font $HOME/tewi-font
     cd $HOME/tewi-font
@@ -67,7 +69,20 @@ if [ "$os" == "Linux" ]; then # Debian
     sudo make clean install clean
 
     cd $currdirr
-elif [ "$os" == "Darwin" ]; then # macOS
+fi
+
+echo -e "\n${red}configuring gpg...${nocolor}\n"
+curl https://daosyn.info/pubkey.asc | gpg --import
+echo -e "trust\n5\ny\nquit\n" | gpg --command-fd 0 --edit-key daosyn@gmail.com
+
+echo -e "\n${red}setting up dotfiles and scripts...${nocolor}\n"
+dotdir=$HOME/.dotfiles
+git clone --bare https://github.com/daosyn/dotfiles.git $dotdir
+git --git-dir=$dotdir/ --work-tree=$HOME checkout -f
+git --git-dir=$dotdir/ --work-tree=$HOME config --local status.showUntrackedFiles no
+git clone https://github.com/daosyn/bin.git $HOME/bin
+
+if [ "$os" == "Darwin" ]; then
     # xcode
     xcode-select --install
 
@@ -79,27 +94,11 @@ elif [ "$os" == "Darwin" ]; then # macOS
     # use latest bash
     sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
     chsh -s /usr/local/bin/bash
-elif [ "$os" == "???" ]; then # OpenBSD
-    # TODO
-    echo "not implemented"
-else
-    echo "unknown operating system! aborting"
-    exit 1
+
+    # code sign chunkwm
+    codesign -fs "chunkwm-cert" /usr/local/opt/chunkwm/bin/chunkwm
+    brew services start chunkwm
 fi
-
-# TODO figure out how to set up tewi font
-
-echo -e "\n${red}configuring gpg...${nocolor}\n"
-curl https://daosyn.info/pubkey.asc | gpg --import
-echo -e "trust\n5\ny\nquit\n" | gpg --command-fd 0 --edit-key daosyn@gmail.com
-# TODO need to add some stuff here
-
-echo -e "\n${red}setting up dotfiles and scripts...${nocolor}\n"
-dotdir=$HOME/.dotfiles
-git clone --bare https://github.com/daosyn/dotfiles.git $dotdir
-git --git-dir=$dotdir/ --work-tree=$HOME checkout -f
-git --git-dir=$dotdir/ --work-tree=$HOME config --local status.showUntrackedFiles no
-git clone https://github.com/daosyn/bin.git $HOME/bin
 
 echo -e "\n${red}downloading wallpapers...${nocolor}\n"
 git clone https://github.com/daosyn/wallpapers.git $HOME/wallpapers
