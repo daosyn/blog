@@ -36,7 +36,7 @@ echo
 os=`uname -s`
 echo -e "\n${red}determining operating system ($os) and installing software...${nocolor}\n"
 if [ "$os" == "Linux" ]; then # Debian
-    packages='chromium git golang gpg redshift vim'
+    packages='feh git golang gpg redshift scdaemon vim'
     sudo apt update
     sudo apt install $packages -y
     sudo apt autoremove -y
