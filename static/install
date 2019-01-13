@@ -37,38 +37,24 @@ read -sp "press enter to continue, ctrl+c to quit"
 echo
 
 if [ "$os" == "Linux" ]; then
-    currdir=`pwd`
-
-    packages='feh git golang gpg make redshift scdaemon vim xorg'
+    # install packages -- assumes Debian at the moment
+    packages='feh git golang gpg make redshift scdaemon suckless-tools vim xorg'
     libraries='libx11-dev libxft-dev libxinerama-dev'
     sudo apt update
     sudo apt install $packages $libraries -y
     sudo apt autoremove -y
 
-    # TODO this is messy
-    mkdir -p $HOME/.fonts
+    # set up tewi font -- still a little messy
     git clone https://github.com/daosyn/tewi-font $HOME/tewi-font
-    cd $HOME/tewi-font
-    make clean
-    make
-    rm $HOME/.fonts/out
+    make -C $HOME/tewi-font
+    mkdir -p $HOME/.fonts
     ln -s $HOME/tewi-font/out $HOME/.fonts/out
     sudo rm /etc/fonts/conf.d/70-no-bitmaps.conf
     fc-cache -fv
 
-    # TODO set up suckless better
+    # install dwm and st -- move somewhere for BSD too
     git clone --recurse-submodules https://github.com/daosyn/suckless.git $HOME/suckless
-    cd $HOME/suckless/src/dmenu
-    patch config.h ../../dmenu.patch
-    sudo make clean install clean
-    cd $HOME/suckless/src/dwm
-    patch config.h ../../dwm.patch
-    sudo make clean install clean
-    cd $HOME/suckless/src/st
-    patch config.h ../../st.patch
-    sudo make clean install clean
-
-    cd $currdirr
+    make -C $HOME/suckless all clean
 fi
 
 echo -e "\n${red}configuring gpg...${nocolor}\n"
