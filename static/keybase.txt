@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/daosyn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://daosyn.info
+  * I am daosyn (https://keybase.io/daosyn) on keybase.
+  * I have a public key ASDM3S1Pm4DGbvUW7MBi7eALtJVTABm3jQwOFen8BRf6sAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ccdd2d4f9b80c66ef516ecc062ede00bb495530019b78d0c0e15e9fc0517fab00a",
+      "host": "keybase.io",
+      "kid": "0120ccdd2d4f9b80c66ef516ecc062ede00bb495530019b78d0c0e15e9fc0517fab00a",
+      "uid": "690100111b70e6c3b27b847e181f5019",
+      "username": "daosyn"
+    },
+    "merkle_root": {
+      "ctime": 1547351284,
+      "hash": "d3e37e79503e43238e310014796686b1c5579a312b510455e783c792a44ef0844ee3fe25b3851a3fe2e8bb643fd0ce2d9bf7337b689e10cc1e3d3ff214c73e6e",
+      "hash_meta": "08927cb3e5b4720d50f13d69f3681c9e9993364350222d982b7046e6cbc66488",
+      "seqno": 4367930
+    },
+    "service": {
+      "entropy": "3b1sdmM+axhrSWKMK/KL6h6l",
+      "hostname": "daosyn.info",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.13.0"
+  },
+  "ctime": 1547351295,
+  "expire_in": 504576000,
+  "prev": "4dca2cd19ae1e182025fbee635384a41190ab6be14170d22708fd1da7a8d1f1e",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzN0tT5uAxm71FuzAYu3gC7SVUwAZt40MDhXp/AUX+rAKp3BheWxvYWTESpcCDMQgTcos0Zrh4YICX77mNThKQRkKtr4UFw0icI/R2nqNHx7EIBUHC77h2B5izqlSie4eFr++DSHV+UFRqfXqqOc581m+AgHCo3NpZ8RAYugB7UJTAp34BDJkqhi2aSLU4hsKjZMKLGLfgdDsfcPC1d0rdTymcpbYoPSiUzN3WggOK+SfeGP1buXF6d5gC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILUzVOjnRPq/TfvS7T7Gmyo8EYSHlT46sh1wKw76Uuk7o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/daosyn
+
+==================================================================
