@@ -5,7 +5,6 @@ date: 2018-09-07T17:25:26-05:00
 
 I am currently learning Go on the side for fun.
 I really appreciate the conciseness of every facet of the language, from its built-in testing package, a formatter that standardizes coding style, an enforced but sensible workspace structure, and the sheer simplicity of the language's syntax.
-<!--more-->
 
 Recently, I unintentionally obtained a Surface Go for myself.
 I had purchased one online for my younger sister, but since it did not arrive in time, I grabbed another one from a physical store.

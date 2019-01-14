@@ -13,7 +13,6 @@ Memory cards were still fairly expensive and limited, and the PSP Go was fitted 
 Why would the PSP Go be any good today, in 2018, when technology has advanced even further and the tiny device is now practically an antique?
 
 The answer is that exploitation takes time.
-<!--more-->
 
 I had been on the lookout for this device for a while now, and pounced on a deal I found at a local pawn shop.
 I ended up paying a fourth of the original price of one when it was released nine years ago.

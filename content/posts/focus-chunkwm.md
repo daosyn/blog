@@ -5,8 +5,6 @@ date: 2018-12-18T20:22:37-06:00
 
 A quick little trick I solved for recently was switching between multiple iTerm2 windows that I would have open during a normal work day.
 
-<!--more-->
-
 My workflow consists of using `chunkwm` across three different desktops to manage all of my windows without much effort on my part:
 
 - Desktop 1 (left) is solely for my terminal windows, which are tiled.

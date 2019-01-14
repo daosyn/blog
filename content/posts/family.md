@@ -7,7 +7,6 @@ expirydate: 2018-10-10
 I have been feeling quite a bit more sentimental than productive lately, so this is going to be another more personal post that falls outside of the content I had intended to use this blog for.
 
 <img src="/image/cousins.jpg" width="360"/>
-<!--more-->
 
 The photo above was taken on my second or third visit to England, where my maternal relatives live.
 My mom's family had to flee Vietnam during the war, and even though they were separated during their attempt, they were able to eventually reunite in England.

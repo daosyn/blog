@@ -5,7 +5,6 @@ expirydate: 2018-11-11
 ---
 
 I have a problem.
-<!--more-->
 
 That problem involves the way that I view others and how I compare myself to them.
 In the work place, I compare my level of effort with colleagues that have seniority and feel disheartened knowing that they are getting paid more and are being given more respect, all while being inadequate in newer technologies and best practices.
