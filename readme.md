@@ -1,1 +1,1 @@
-blog powered by [hugo](https://gohugo.io) and [hyde](https://github.com/spf13/hyde)
+blog powered by [hugo](https://gohugo.io) and [coder](https://github.com/luizdepra/hugo-coder)
