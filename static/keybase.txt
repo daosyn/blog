@@ -6,7 +6,7 @@ I hereby claim:
 
   * I am an admin of https://daosyn.info
   * I am daosyn (https://keybase.io/daosyn) on keybase.
-  * I have a public key ASDM3S1Pm4DGbvUW7MBi7eALtJVTABm3jQwOFen8BRf6sAo
+  * I have a public key with fingerprint 9FB1 0C48 910A 6A61 8D70  F0A5 927F AC0F EF5F 6684
 
 To do so, I am signing this object:
 
@@ -14,39 +14,69 @@ To do so, I am signing this object:
   "body": {
     "key": {
       "eldest_kid": "0120ccdd2d4f9b80c66ef516ecc062ede00bb495530019b78d0c0e15e9fc0517fab00a",
+      "fingerprint": "9fb10c48910a6a618d70f0a5927fac0fef5f6684",
       "host": "keybase.io",
-      "kid": "0120ccdd2d4f9b80c66ef516ecc062ede00bb495530019b78d0c0e15e9fc0517fab00a",
+      "key_id": "927fac0fef5f6684",
+      "kid": "0101757298758f3769b1da379638cc38e9507d91953e3212b5b0d6c4ca347e6ebcb60a",
       "uid": "690100111b70e6c3b27b847e181f5019",
       "username": "daosyn"
     },
     "merkle_root": {
-      "ctime": 1547351284,
-      "hash": "d3e37e79503e43238e310014796686b1c5579a312b510455e783c792a44ef0844ee3fe25b3851a3fe2e8bb643fd0ce2d9bf7337b689e10cc1e3d3ff214c73e6e",
-      "hash_meta": "08927cb3e5b4720d50f13d69f3681c9e9993364350222d982b7046e6cbc66488",
-      "seqno": 4367930
+      "ctime": 1547434750,
+      "hash_meta": "8271772346c34dd485893f42ff493be804376342717db52ad8a44f4cd3d50f7f",
+      "seqno": 4374280
+    },
+    "revoke": {
+      "sig_ids": [
+        "1340a6ce42a2decf500b221f5aed4bead4ea4c5096a8db12d9668fc3612a5f130f"
+      ]
     },
     "service": {
-      "entropy": "3b1sdmM+axhrSWKMK/KL6h6l",
       "hostname": "daosyn.info",
       "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 2
+    "version": 1
   },
-  "client": {
-    "name": "keybase.io go client",
-    "version": "2.13.0"
-  },
-  "ctime": 1547351295,
-  "expire_in": 504576000,
-  "prev": "4dca2cd19ae1e182025fbee635384a41190ab6be14170d22708fd1da7a8d1f1e",
-  "seqno": 12,
+  "ctime": 1547434757,
+  "expire_in": 157680000,
+  "prev": "9c5436edda2978a425de635ee6968dec786b276f41682ce4c36155f9b3afd16f",
+  "seqno": 29,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzN0tT5uAxm71FuzAYu3gC7SVUwAZt40MDhXp/AUX+rAKp3BheWxvYWTESpcCDMQgTcos0Zrh4YICX77mNThKQRkKtr4UFw0icI/R2nqNHx7EIBUHC77h2B5izqlSie4eFr++DSHV+UFRqfXqqOc581m+AgHCo3NpZ8RAYugB7UJTAp34BDJkqhi2aSLU4hsKjZMKLGLfgdDsfcPC1d0rdTymcpbYoPSiUzN3WggOK+SfeGP1buXF6d5gC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILUzVOjnRPq/TfvS7T7Gmyo8EYSHlT46sh1wKw76Uuk7o3RhZ80CAqd2ZXJzaW9uAQ==
+-----BEGIN PGP MESSAGE-----
+
+owFtU3tQFVUcviA2gRKIomOFjaujzsjgOXvOnt1F8jFo4xgq4COcsOvuOWdhBe6l
+vRfwKpgapmSlGI7mICGTWMLkIyfzka+yQRo0NSSrycpIHVJjnLr47iyTM9W0/+zs
+2e/3/b7v+/3O+tg+npiIzTe+jvh258qiiC+vmZ7c8Xejl0qmn4Wk1KVSAe998ULG
+A0Fvgc2kVAlAGVDKmMywpZsaoIRwS4GEUwqIzBkHwDSxrigIAKibqsYABRwqXLco
+UKBqGSYAhpQsWbYvjzvFju0LClrdMiGgWNMhMIhBoMZUYAFD0WVRQYEleliEaFgU
+5vsDboUQZxoBnmL7xZn48PbK+x/8I90Aqooq65qqaBZSiW5CZiBVJ0ijFGlcV4DK
+dKgriCMZyqZiAkYopgbCKifcpCbp1V3SS0d0QQgghKYKOKHIlFVTE0CoQUsRxl1g
+gDs+o4gLNDP8gZBPqkiWirhTUMi9jt8fdKOlQdsFQAWrWPRRgLBnBPK9RTxoiDpN
+VqGqygiLDpgxrCmajiwsWxbWkck1gIURhF0UMxXZYJqBsYUpQ0wBlmoJFQH+ss8v
+pQogljUgFDi81F/A3eYBO0+EFpBSX5QgwiL3Y0HKsWzIjFNhApiyLMwYnGGTGwxz
+A1MF6MTQmAllpot4LYoIlA3FgghY0oIKt51TatNeendO//KfYvssd1jFjj/op/5C
+8SM/GCwOpLrBBEPFLrKMm96/Obym7WNiSURFKXcCtt8nghLI/2amJkt8cbHtcK/t
+IhSVaEA8bh9e6q4EVTAinDFD1lURkKwwTpDCOdGJJqyqGhHTIxaGRJNFAK4nRRHL
+jQyLQfKPEGVd6DTyBKeIzmcESxwuVcRURaIoT0SMJ2nw8KjFQ3ta98xYTk68Mn7X
+o4vVN9K9VZ6Y6PhHJxtvxt3r/3YzKTuQUP5baPeIbTNv3+/z6eR1T21Ja/a+5tvv
+Geg/G9/0OHp/e3PMS5Prck7kl3TsPZP2O1y4pOxAjjp7SMmK++n74psOhBdmsfb6
+zurPmi5H9fvesPe99UHbohkjl0XcjRsxaMDYrFM/Lbsxdl53x5QNoWiQ0NBS3pye
+vfWH2MjTGenJlTmJK8cNrexa03DiVmt93cHWRXRIwp+dJyfNr4qrzA33XOmovXMx
+5eFFT+emP14YdTiwp4j3IJR5bvuTlweOWtcerK2evKnCWHc1I3wrrTt3Tle/iTcX
+rJ0Q0TKs5sfOitCo63cKLsYlb5nyZnrncydbukuzu3P2zXqnJmXO0Xfzbn03KKEx
+/LBh1+wWX+j8tq6khvbMsZFJDYc3Tn/9ziFt1qGRl9jnH/Uv37kyY/TMth1T106r
+Pd1QeG9TzWqnauSEeXXjGg+OYcuf2TIt9r2yAY2/Ppb1xrC+R6KuoYfliZe9S2l2
+n6n0q4M1x1avyZx5vCm5sDEuKXbVkfMffjJp/pgzix88yF5yfEVo1aHNF0Id22ne
+lSPo2baBLeei0ye2Pj9+//6FG38+m3V99NlB4fy5T1cXnEqMPp1L44cf3ryhLn9v
+obMbZT4B8dwZUdVVu7iVljU9I7Gr8psLw+Xl4fboujC9Xr9t/YhX59V+QXoGNJYM
+ftC3fvWOtts7f5EvHa3nC44vyfj4aqh9q/fkXw==
+=Yl3d
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -54,3 +84,4 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/daosyn
 
 ==================================================================
+

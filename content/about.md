@@ -1,14 +1,14 @@
 ---
 title: "About"
 date: 2018-09-03T03:21:01Z
-menu: "main"
 ---
 
 <img src="/image/me.jpg" width="360"/>
-<!--more-->
 
 Hi!
 My name is Brandon Dao.
+
+I am currently a software developer at Capital One, working on building modern web applications.
 
 <ul>
 <li><a href="/resume.html">view resume</a></li>

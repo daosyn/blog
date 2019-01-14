@@ -2,6 +2,6 @@
 	path = public
 	url = https://github.com/daosyn/daosyn.github.io
 	branch = master
-[submodule "themes/hyde"]
-	path = themes/hyde
-	url = https://github.com/spf13/hyde
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
