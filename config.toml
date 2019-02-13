@@ -1,13 +1,11 @@
 baseURL = "https://daosyn.info/"
 languageCode = "en-us"
-title = "(daosyn)"
-theme = "hugo-coder"
+title = "daosyn.info"
+theme = "banh-mi"
 
 [params]
     author = "Brandon Dao"
     info = "Software Developer"
-    description = "yak shaving"
-    tags = "nothing"
     avatarurl = "/image/me.jpg"
 
     favicon_32 = "favicon.png"
@@ -17,31 +15,6 @@ theme = "hugo-coder"
     hidecopyright = true
     inverted = true
     math = true
-
-[[params.social]]
-    name = "GitHub"
-    icon = "fab fa-github-alt"
-    url = "https://github.com/daosyn/"
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin-in"
-    url = "https://linkedin.com/in/daosyn/"
-[[params.social]]
-    name = "Keybase"
-    icon = "fab fa-keybase"
-    url = "https://keybase.io/daosyn"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
-    url = "https://twitter.com/daosyn/"
-[[params.social]]
-    name = "Reddit"
-    icon = "fab fa-reddit-alien"
-    url = "https://reddit.com/user/daosyndrome"
-[[params.social]]
-    name = "Last.fm"
-    icon = "fab fa-lastfm"
-    url = "https://www.last.fm/user/daosyndrome"
     
 # Menu links
 [[menu.main]]
