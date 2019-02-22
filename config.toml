@@ -1,7 +1,7 @@
 baseURL = "https://daosyn.info/"
 languageCode = "en-us"
 title = "daosyn.info"
-theme = "banh-mi"
+theme = "yak-shaver"
 
 [params]
     author = "Brandon Dao"
