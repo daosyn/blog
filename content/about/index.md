@@ -1,9 +1,6 @@
 ---
-title: "About"
-date: 2018-09-03T03:21:01Z
+title: "about"
 ---
-
-<img src="/image/me.jpg" width="360"/>
 
 Hi!
 My name is Brandon Dao.
