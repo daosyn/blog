@@ -1,7 +1,8 @@
----
-title: "PSP Go"
-date: 2018-10-13T11:03:53-05:00
----
++++
+title = "PSP Go"
+date = 2018-10-13
+categories = ["technology"]
++++
 
 Coincidentally or not, I have been thoroughly obsessed with all things "Go" lately...
 

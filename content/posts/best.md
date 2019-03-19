@@ -1,8 +1,8 @@
----
-date: 2018-07-27
-layout: default
-title: best
----
++++
+title = "best"
+date = 2018-07-27
+categories = ["naivety"]
++++
 
 I want to be good at everything but not necessarily the best at everything.
 

@@ -1,7 +1,8 @@
----
-title: "Circling Back - Yubikey Setup With Surface Go"
-date: 2018-09-23T06:46:44-05:00
----
++++
+title = "Circling Back - Yubikey Setup With Surface Go"
+date = 2018-09-23
+categories = ["technology"]
++++
 
 A small hurdle that I have been running into recently has been setting up my Yubikey with all of the devices that I use.
 
@@ -9,8 +10,6 @@ The Yubikey has been in my possession for a few months now.
 I started using only the U2F feature with popular services such as Google, Twitter, Facebook, and GitHub, and it was quick and painless to get it set up and running.
 I recently found out that my workplace also supports Yubikeys for multi-factor authentication, even though only the one-time password feature is supported.
 Setting that up was also simple, and I enjoyed the ease of using the Yubikey over generating codes on a phone so much that I began looking into other ways that I could integrate the key into my workflow, for added security, of course, but also just for fun.
-
-![wallet pic](/image/yubiwall.jpg "I switched back to an old wallet from a Bellroy Slim Sleeve because it provided an easy way to carry the key.")
 
 I have a Chromebook (Acer C771), ThinkPad (X220), Surface Go, a corporate MacBook Pro, and a desktop computer currently running Windows 10.
 Using GPG on a Tails live image from my desktop to create keys and then move them to the Yubikey was fairly straightforward following the [steps from drduh](https://github.com/drduh/YubiKey-Guide).
@@ -32,4 +31,3 @@ The issue with this is that the `scdaemon` that `gpg-agent` runs to check for sm
 I had to scour the web and eventually found a comment in some forum explaining this, and that I can tell the `scdaemon` to specifically check for the Yubikey by adding `reader-port Yubico Yubikey 4 OTP+U2F+CCID 0` to `scdaemon.conf` in the GPG home folder.
 That is on top of enabling PuTTY support and setting `GIT_SSH` as an environment variable with its value pointing to `plink`.
 
-![Success!](/image/gossh.jpg "Success!")`

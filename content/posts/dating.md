@@ -1,8 +1,8 @@
----
-date: 2018-08-22
-layout: default
-title: dating
----
++++
+title = "dating"
+date = 2018-08-22
+categories = ["naivety"]
++++
 
 Relationships have the potential to be so satiating at times but also draining at others. We tug at each other's emotional chords until they are right on the verge of snapping, and then decide at that moment whether to rip it apart quickly like some sort of adhesive putty or to give it a moment to rest, like a freshly stretched out piece of taffy. They need time to breath and relax, but also conversely if they fail to "work out" the relationship could just as likely fizzle out. They are so volatile in that one wrong move could mean the end. Relationships are a ticking time bomb.
 

@@ -2,26 +2,3 @@ baseURL = "https://daosyn.info/"
 languageCode = "en-us"
 title = "daosyn.info"
 theme = "yak-shaver"
-
-[params]
-    author = "Brandon Dao"
-    info = "Software Developer"
-    avatarurl = "/image/me.jpg"
-
-    favicon_32 = "favicon.png"
-    favicon_16 = "favicon.png"
-
-    hidecredits = true
-    hidecopyright = true
-    inverted = true
-    math = true
-    
-# Menu links
-[[menu.main]]
-    name = "blog"
-    weight = 1
-    url  = "/posts/"
-[[menu.main]]
-    name = "about"
-    weight = 2
-    url  = "/about/"

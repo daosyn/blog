@@ -1,7 +1,8 @@
----
-title: "Go[lang] and [Surface] Go"
-date: 2018-09-07T17:25:26-05:00
----
++++
+title = "Go[lang] and [Surface] Go"
+date = 2018-09-07
+categories = ["technology"]
++++
 
 I am currently learning Go on the side for fun.
 I really appreciate the conciseness of every facet of the language, from its built-in testing package, a formatter that standardizes coding style, an enforced but sensible workspace structure, and the sheer simplicity of the language's syntax.
@@ -27,7 +28,7 @@ With WSL, however, I am not able to interact with my normal Go path outside of W
 To circumvent this, I make it so that my actual Go workspace resides in a folder accessible to Windows and create a symbolic link to it where my `$GOPATH` would normally be.
 Essentially, I run these commands:
 
-```sh
+```shell
 # /mnt/c/ is how C:\ is represented in WSL
 mv $GOPATH /mnt/c/Users/<username>/<whatever>
 

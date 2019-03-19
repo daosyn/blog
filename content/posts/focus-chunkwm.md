@@ -1,7 +1,8 @@
----
-title: "switching terminal focus with chunkwm"
-date: 2018-12-18T20:22:37-06:00
----
++++
+title = "switching terminal focus with chunkwm"
+date = 2018-12-18
+categories = ["technology"]
++++
 
 A quick little trick I solved for recently was switching between multiple iTerm2 windows that I would have open during a normal work day.
 

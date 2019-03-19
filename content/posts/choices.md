@@ -1,8 +1,8 @@
----
-date: 2018-05-02
-layout: default
-title: choices
----
++++
+title = "choices"
+date = 2018-05-02
+categories = ["naivety"]
++++
 
 It would seem that in this day and age of the Internet, people can constantly find themselves something to do to occupy their purposeless but satisfying lives in this world. However, it is quite the opposite. There is simply an overabundance of options which causes one to become totally uncertain whether one option is a better choice than the other. It becomes so easy to get lost in that metaphorical fig tree that the main character describes in The Bell Jar. It becomes so easy to get lost in a depression and end up not doing anything.
 
