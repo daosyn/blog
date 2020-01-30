@@ -1,4 +1,4 @@
 baseURL = "https://daosyn.info/blog"
 languageCode = "en-us"
-title = "daosyn.info"
+title = "blog"
 theme = "yak-shaver"
